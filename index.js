@@ -4,7 +4,7 @@ const PORT = 4909;
 
 const app = express();
 
-app.get('/', (rreq, res) => {
+app.get('/', (req, res) => {
     res.send('Hello from the server')
 })
 
